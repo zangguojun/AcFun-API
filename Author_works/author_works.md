@@ -8,7 +8,7 @@
 
 | 字段        | 必选  | 类型   | 说明       |
 | ----------- | ----- | ------ | ---------- |
-| quickViewId | true  | string | 显示格式   |
+| quickViewId | true  | string | 板块名     |
 | reqID       | false | int    | 请求次数   |
 | ajaxpipe    | true  | int    | 固定值     |
 | type        | true  | string | 作品类型   |
