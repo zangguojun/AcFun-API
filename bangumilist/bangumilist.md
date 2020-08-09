@@ -8,7 +8,7 @@
 
 | 字段        | 必选  | 类型   | 说明         | 备注                                               |
 | ----------- | ----- | ------ | ------------ | -------------------------------------------------- |
-| filters     | false | string | 过滤方式     |                                                    |
+| filters     | false | string | 过滤方式     | 详情见同级目录下`filters.md`文件                   |
 | pageNum     | true  | int    | 页数         | 不加参，默认为第一页                               |
 | quickViewId | true  | string | 板块名       | ac-space-video-list：视频板块bangumiList：番剧板块 |
 | reqID       | false | int    | 请求次数     |                                                    |
@@ -39,7 +39,7 @@ Json格式文本 + /*<!-- fetch-stream -->*/
 | styles | string   | 引入的样式文件链接 |
 | script | string   | 引入的脚本文件链接 |
 
-###### html字段 (参考文件请见同级目录下bangumilist.html文件以及bangumilist.png结构图)
+###### html字段 (参考文件见同级目录下bangumilist.html文件以及bangumilist.png结构图)
 
 
 
