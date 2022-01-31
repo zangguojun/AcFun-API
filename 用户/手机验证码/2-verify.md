@@ -1,4 +1,4 @@
-## 获取手机验证码
+## 验证手机验证码
 
 #### 调用地址
 
@@ -16,9 +16,9 @@
 
 根对象：
 
-| 字段        | 字段类型   | 字段说明 | 备注          |
+| 字段        | 类型     | 说明   | 备注          |
 | --------- | ------ | ---- | ----------- |
-| result    | int    | 结果码  | **详细说明如下表** |
+| result    | number | 结果码  | **详细说明如下表** |
 | error_msg | string | 错误信息 | 与result配对   |
 
 ###### `result`与`error_msg`对应表：
@@ -40,5 +40,3 @@ curl 'https://id.app.acfun.cn/rest/web/sms/verify' \
     -H 'Content-Type: application/x-www-form-urlencoded' \
     --data-raw 'mobile=手机号码(177xxxx0585)&type=类型码(16)&code=验证码(xxxxxx)'
 ```
-
-<details>

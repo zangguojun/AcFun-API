@@ -1,3 +1,5 @@
+## 图形验证码
+
 #### 调用地址
 
 （**GET**）https://id.app.acfun.cn/rest/web/login/captcha
@@ -14,7 +16,7 @@
 
 ##### 根对象：
 
-| 参数名    | 类型     | 内容    | 备注         |
+| 字段     | 类型     | 说明    | 备注         |
 | ------ | ------ | ----- | ---------- |
 | result | number | 结果码   | *          |
 | image  | str    | 验证码图片 | base64格式图片 |
@@ -27,5 +29,3 @@
 curl -G 'https://id.app.acfun.cn/rest/web/login/captcha'
 --data-urlencode '_=时间戳(1643556910454)'
 ```
-
-<details>

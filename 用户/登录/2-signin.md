@@ -1,3 +1,5 @@
+## 登录
+
 #### 调用地址
 
 （**POST**）https://id.app.acfun.cn/rest/web/login/signin
@@ -17,13 +19,13 @@
 
 ##### 根对象：
 
-| 参数名       | 类型     | 内容     | 备注          |
+| 字段        | 类型     | 说明     | 备注          |
 | --------- | ------ | ------ | ----------- |
 | result    | number | 结果码    | **详细说明如下表** |
-| error_msg | str    | 错误信息   |             |
+| error_msg | string | 错误信息   |             |
 | userId    | number | 用户ID   |             |
-| username  | str    | 用户名    |             |
-| img       | url    | 用户头像链接 |             |
+| username  | string | 用户名    |             |
+| img       | string | 用户头像链接 | url         |
 
 ###### `result`与`error_msg`对应表：
 
@@ -45,5 +47,3 @@ curl 'https://id.app.acfun.cn/rest/web/login/signin' \
     -H 'Content-Type: application/x-www-form-urlencoded' \
     --data-raw 'username=17719090585&password=5@!46zx-A9c_59Q'
 ```
-
-<details>

@@ -14,11 +14,11 @@
 
 ##### 根对象：
 
-| 参数名       | 类型     | 内容     | 备注          |
+| 字段        | 类型     | 说明     | 备注          |
 | --------- | ------ | ------ | ----------- |
 | result    | number | 结果码    | **详细说明如下表** |
-| error_msg | str    | 错误信息   |             |
-| host-name | str    | 检验机主机名 |             |
+| error_msg | string | 错误信息   |             |
+| host-name | string | 检验机主机名 |             |
 
 ###### `result`与`error_msg`对应表：
 
@@ -40,5 +40,3 @@ curl 'https://www.acfun.cn/rest/pc-direct/user/checkNameUnique' \
     -H 'Content-Type: application/x-www-form-urlencoded' \
     --data-raw 'name=用户名(zangguojun)'
 ```
-
-<details>
